@@ -1,10 +1,11 @@
 body{
     font-family: Batman forever, papyrus, 'Courier New', Courier, monospace;
-    background-color: rgb(210, 86, 33);
-    background-image: url("https://images.alphacoders.com/112/112121.jpg");
+    background-color: rgb(249, 245, 243);
+    background-image: url("https://wallpapercave.com/wp/6OF3HoQ.jpg");
     background-repeat: repeat;
-    color: burlywood;
+    color: rgb(245, 242, 239);
     background-size: contain;
+    text-align: center;
 }
 img{
     display: block;
@@ -14,49 +15,47 @@ img{
     margin: auto;
     text-align: center;
 }
+iframe {
+  display: block;
+  width: 45%;
+  height: 50%;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
 a:visited{
-    color: black;
+    color: rgb(254, 253, 253);
 }
 li{
     font-style: italic;
+    text-align: left;
 }
 li:hover{
     font-size: 105%;
     text-decoration: underline;
-    background-color: blueviolet;
-}
-.yessir{
-    font-family: chiller;
-     font-style:metallic ;
-     font-weight: bolder ;
-    color: brown;
-    background-color: blue;
-
-}
-.yessir:hover{
-    text-align: center;
-    color: blue;
+    background-color: rgb(19, 19, 189);
 }
 .common{
+    background-color:aliceblue#cccccc ;
     border: 2px solid white;
     position: absolute
 }
-.nav{
-    top:0;
-    right:0;
-    z-index: 1;
-    background-color: rgb(212, 30, 30);
+.header{
+top:5px;
+left: 5px;
+right: 5px;
+height: 100 px
 }
-.footer{
-    position:fixed;
-    background-color: black;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display:block;
-    text-align: center;
+.leftmenu{
+top: 50px;
+left: 5px;
+width: 100px;
+bottom: 0px;
 }
-.gallery img{
-    display:inline;
-    width:250px
+.rightmenu{
+    top: 50px;
+    right: 5px;
+    width: 100px;
+    bottom:0px
 }
