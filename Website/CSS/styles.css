@@ -1,0 +1,62 @@
+body{
+    font-family: Batman forever, papyrus, 'Courier New', Courier, monospace;
+    background-color: rgb(210, 86, 33);
+    background-image: url("https://images.alphacoders.com/112/112121.jpg");
+    background-repeat: repeat;
+    color: burlywood;
+    background-size: contain;
+}
+img{
+    display: block;
+    /*Content*/
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+a:visited{
+    color: black;
+}
+li{
+    font-style: italic;
+}
+li:hover{
+    font-size: 105%;
+    text-decoration: underline;
+    background-color: blueviolet;
+}
+.yessir{
+    font-family: chiller;
+     font-style:metallic ;
+     font-weight: bolder ;
+    color: brown;
+    background-color: blue;
+
+}
+.yessir:hover{
+    text-align: center;
+    color: blue;
+}
+.common{
+    border: 2px solid white;
+    position: absolute
+}
+.nav{
+    top:0;
+    right:0;
+    z-index: 1;
+    background-color: rgb(212, 30, 30);
+}
+.footer{
+    position:fixed;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display:block;
+    text-align: center;
+}
+.gallery img{
+    display:inline;
+    width:250px
+}
